@@ -1,0 +1,31 @@
+{
+  "name": "get-adapter-info",
+  "version": "1.0.0",
+  "description": "simple way to get current network adapter",
+  "keywords": [
+    "network",
+    "adapter",
+    "MIB_IFROW",
+    "speed"
+  ],
+  "author": "JingYu <873769935@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whaleluo/get-adapter-info.git"
+  },
+  "license": "MIT",
+  "main": "./lib/getAdapterInfo.js",
+  "scripts": {
+    "build:gyp": "node-gyp rebuild",
+    "test": "node test/index.js",
+    "example": "node example/index.js"
+  },
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^7.0.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^9.4.0"
+  }
+}
