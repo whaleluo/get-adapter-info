@@ -7,6 +7,11 @@
 * Only supports window7+ systems
 
 ## Example
+### install
+
+~~~js
+npm install get-adapter-info
+~~~
 
 ### Code
 ~~~js
